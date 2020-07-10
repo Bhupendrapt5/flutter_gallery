@@ -33,6 +33,7 @@ dependencies:
   path: ^1.7.0
   path_provider: ^1.6.11
   provider: ^4.3.0
+  flutter_native_splash: ^0.1.9
 
 dev_dependencies:
   flutter_test:
@@ -79,3 +80,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_native_splash:
+  image: assets/mario.png
+  color: "000000"
+  android_disable_fullscreen: false

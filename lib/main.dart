@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Image Taker',
         theme: ThemeData.dark(),
         routes: {
           RouteNames.camScreen :(ctx) => CameraScreen(),
